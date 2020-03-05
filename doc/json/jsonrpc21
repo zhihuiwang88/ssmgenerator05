@@ -1,0 +1,107 @@
+
+{
+	"jsonrpc": "2.0",
+	"id": "1",
+	"method": "operate",
+	"params": {
+		"data": {
+			"version": "20180523",
+			"sessionId": "e68f26bb70ab41b8a9fa2a37b34ab1bc",
+			"userInfo": {
+				"userId": "001234",
+				"userName": "张三",
+				"userDeptNo": "440000000000",
+				"sn": "39a22c9d353f4ea8bbf5a8703799f400",
+				"sfzh": "411123456789741258963"
+			},
+			"transaction": 1,
+			"operations": [{
+					"operationType": 1,
+					"operationId": "cd2a138e502e4ae5ba5dfb5a9af9df61",
+					"sourceId": "DS-01",
+					"dataObjId": "czrk",
+					"condition": "洪七",
+					"data": [{
+						"fieldValues": [{
+								"field": "name",
+								"value": "小花"
+							},
+							{
+								"field": "age",
+								"value": "25"
+							},
+							{
+								"field": "sex",
+								"value": "2"
+							},
+							{
+								"field": "phone",
+								"value": "15501011001"
+							}
+						]
+					},
+					{
+						"fieldValues": [{
+								"field": "name",
+								"value": "小红"
+							},
+							{
+								"field": "age",
+								"value": "25"
+							},
+							{
+								"field": "sex",
+								"value": "2"
+							},
+							{
+								"field": "phone",
+								"value": "15501011001"
+							}
+						]
+					}
+					]
+				},
+				{
+					"operationType": 2,
+					"operationId": "8148f9d3731d4cbe9cecff48bee319df",
+					"sourceId": "DS-01",
+					"dataObjId": "czrk",
+					"condition": "name='小军'",
+					"data": [{
+						"fieldValues": [{
+								"field": "age",
+								"value": "小浩25"
+							},
+							{
+								"field": "sex",
+								"value": "2"
+							},
+							{
+								"field": "phone",
+								"value": "15501011002"
+							}
+						]
+					},
+					{
+						"fieldValues": [{
+								"field": "city",
+								"value": "北京"
+							},
+							{
+								"field": "school",
+								"value": "初中"
+							},
+							{
+								"field": "number",
+								"value": "123456789"
+							}
+						]
+					}
+					]
+				}
+			]
+		},
+		"sign": "4qIwHMMVJipyn3ZB"
+	}
+}
+

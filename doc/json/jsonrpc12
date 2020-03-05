@@ -1,0 +1,47 @@
+
+{
+	"jsonrpc": "2.0",
+	"id": "1",
+	"result": {
+		"code": "1",
+		"msg": "OK",
+		"data": [{
+			"sourceId": "DS-01",
+			"fieldValues": [{
+					"field": "name",
+					"value": "小明",
+					"isCode": 0,
+					"codeValue": "123"
+				},
+				{
+					"field": "age",
+					"value": "20",
+					"isCode": 0,
+					"codeValue": "789"
+				},
+				{
+					"field": "sex",
+					"value": "男",
+					"isCode": 1,
+					"codeValue": "2"
+				},
+				{
+					"field": "phone",
+					"value": "15501011234",
+					"isCode": 0,
+					"codeValue": "231"
+				}
+			]
+		}],
+		"page": {
+			"pageSize": 10,
+			"pageNo": 1,
+			"total": 1
+		},
+		"sign": "E7h/Hz5EDiNwm7rU"
+	}
+}
+
+
+
+
